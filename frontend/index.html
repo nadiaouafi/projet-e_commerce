@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Librairie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/assets/style.css" />
+      <script type="module" src="/src/main.js" defer></script>
+      
+  </head>
+  <body>
+     <img src="images/logo.jpeg" alt="Logo" class="logo" />
+    <header>
+     
+      <nav>
+        <a href="/index.html">Livres</a>
+        <a href="/ajouter.html">Ajouter un livre</a>
+        <a href="/inscription.html">Inscription</a>
+        <a href="/connexion.html">Connexion</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Destination lecture</h2>
+
+       <section id="filtres">
+    <input type="text" id="recherche" placeholder="Recherche par titre" />
+
+    <select id="filtre-categorie">
+      <option value="">Toutes catégories</option>
+      <option value="Roman">Roman</option>
+      <option value="Science">Science</option>
+      <option value="Histoire">Histoire</option>
+      <option value="BD">BD</option>
+    </select>
+
+    <select id="filtre-prix">
+      <option value="">Tous les prix</option>
+      <option value="10">Moins de 10 $</option>
+      <option value="20">Moins de 20 $</option>
+      <option value="50">Moins de 30 $</option>
+    </select>
+  </section>
+
+  <div id="produits" class="grille-produits"></div>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - Destination Lecture</p>
+    </footer>
+
+    
+  
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Ajouter un produit</title>
+ <link rel="stylesheet" href="src/assets/style.css" />
+  <script type="module" src="src/component/form/ajouter.js" defer></script>
+</head>
+<body>
+  <div id="app"></div>
+     <img src="images/logo.jpeg" alt="Logo de destination lecture" class="logo">
+    <header>
+    
+     <nav>
+      <a href="index.html">livres</a>
+      <a href="/ajouter.html">Ajouter un livre</a>
+      <a href="/inscription.html">Inscription</a>
+      <a href="/connexion.html">Connexion</a>
+     </nav>
+  </header>
+
+   <h2>Destination lecture</h2>
+  
+  <main class="formulaire-ajout">
+    <h1>Ajouter un nouveau livre</h1>
+    <form id="form-ajout">
+      <label for="titre">Titre :</label>
+      <input type="text" id="titre" name="titre" required />
+
+      <label for="prix">Prix :</label>
+      <input type="number" id="prix" name="prix" min="10" max="50" required />
+
+      <label for="description">Description :</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="image">URL de l’image :</label>
+      <input type="url" id="image" name="image" required />
+
+      <button type="submit">Ajouter</button>
+      <p id="message-erreur" class="erreur"></p>
+    </form>
+  </main>
+
+  
+</body>
+</html>

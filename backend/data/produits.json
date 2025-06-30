@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "titre": "Le Château du secret",
+    "categorie": "Roman",
+    "prix": 24.99,
+    "description": "Un roman mystérieux où chaque pièce cache un indice.",
+    "image": "https://m.media-amazon.com/images/I/41VLbk++9XL._SY445_SX342_.jpg"
+  },
+  {
+    "id": 2,
+    "titre": "L'Alchimiste",
+    "categorie": "Roman",
+    "prix": 19.99,
+    "description": "Un voyage initiatique à la recherche de sa légende personnelle.",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRgSWmwcR5Wh6dp6PyXbcFjkxjh5BO_jutlSFxqfWznXQzGsmmk_wmOQtzTZfU9P5_bDINUakG694-c7f5ubKgQXSFQ1I0bzahd4tvXYD9VZuMSO-2Gx3ng"
+  },
+  {
+    "id": 3,
+    "titre": "Un palais de couleurs",
+    "categorie": "Poésie",
+    "prix": 22.5,
+    "description": "Une immersion poétique dans un monde sensoriel et vibrant.",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTw9OvkOloojqdSm67rraBZqV1mLh_O2tweKBpoISGrd97UGg-whhRgKqYYENwDyzTyBDEax_zw4OD7PX-CMqlfiNJMTfwTw_IVJQwqzXsPnqCzdTIBio-9ZA"
+  },
+  {
+    "id": 4,
+    "titre": "Celui que j'ai choisi d’aimer",
+    "categorie": "Roman",
+    "prix": 18.0,
+    "description": "Une histoire d’amour profonde, pleine de choix difficiles.",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRAAVEEOOj31rogdlfymSCA50goz83KFTgidqG9GdwQmjIuFD7bD7F-Cu9Ajc0sCtc5YAS3suCwAJ21ZpzEVXvODQ70IWBaTmAfhXwiFTZuGxqThB5APkEH&usqp=CAc"
+  },
+  {
+    "id": 5,
+    "titre": "Piège de l’ombre",
+    "categorie": "Thriller",
+    "prix": 21.9,
+    "description": "Suspense, trahison et révélations dans une ville sans pitié.",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTnzZV9koLeLFXW2zGzFQULvvVKyQ5tRtG-j7KzTLrFp6w1j5j31MAEp8WF7j-GM3fyhgh3oy3g-MRk827J3mRJsj4Z4WJ1bmoRRJHVPVv_ICfskehkMbWO"
+  },
+  {
+    "id": 6,
+    "titre": "Une deuxième vie",
+    "categorie": "Roman",
+    "prix": 20.0,
+    "description": "Un nouveau départ marqué par les secrets du passé.",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQctK92CF1WMtdPblKeV97y9ZKV5s22VFEZTU-vZAg5cWrzvpIjrgTtJNPJ8BZPSyl2yUkEkEQHw6Fjmw7CaOwP5_Hk0EVUdGYoYTyNPg&usqp=CAc"
+  },
+  {
+    "id": 7,
+    "titre": "Une soif de livres et de liberté",
+    "categorie": "Essai",
+    "prix": 17.75,
+    "description": "Une ode à la lecture et à l’émancipation par le savoir.",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShJ98Jb2UyunqZUrZw9UmtvjVmj62IJtEXYRg92t7XaaAHJCHWNjR5lsyMuq_2HNK-RBgveU-9YfX4Q05ctnuQi6qum37YVwy4ip06XlBTnj09Qg3eFAv3Lw"
+  },
+  {
+    "id": 8,
+    "titre": "Tenir debout",
+    "categorie": "Biographie",
+    "prix": 23.6,
+    "description": "Un témoignage bouleversant sur la résilience et le courage.",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSb6mUzqkzWF2AAg17LzYCs9g2lQHZ3YAiusC86tK1q9aONHvSMqrqv6eysTJ2JEg5xATyYmwwOFaCPsxS0F-_JQDSwe_RJEcyA2bHQ7j9zKyWsREqti376"
+  },
+  {
+    "id": 9,
+    "titre": "J’ai trouvé le bonheur",
+    "categorie": "Développement personnel",
+    "prix": 16.99,
+    "description": "Une quête intérieure vers la joie et la paix de l’âme.",
+    "image": "https://couverture.numilog.com/9782359328196_w300.jpg"
+  },
+  {
+    "id": 10,
+    "titre": "La vie pour vous",
+    "categorie": "Développement personnel",
+    "prix": 15.5,
+    "description": "Un message d’espoir et d’inspiration pour mieux vivre.",
+    "image": "https://livres.bookelis.com/img/p/1/4/9/7/7/0/149770-image_librairie.jpg"
+  },
+  {
+    "id": 11,
+    "titre": "Demain est un autre jour",
+    "categorie": "Roman",
+    "prix": 18.75,
+    "description": "Quand chaque nouveau matin apporte son lot de promesses.",
+    "image": "https://i.pinimg.com/474x/f6/ac/70/f6ac70e8410ec19b34c57a1062ac9ec5.jpg"
+  },
+  {
+    "id": 12,
+    "titre": "Un binôme idéal",
+    "categorie": "Roman",
+    "prix": 19.9,
+    "description": "Deux âmes complémentaires unies par un destin inattendu.",
+    "image": "https://m.media-amazon.com/images/I/51jhhTowUdL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 13,
+    "titre": "Trop beau pour être vrai",
+    "categorie": "Romance",
+    "prix": 14.99,
+    "description": "Une romance troublante où les apparences sont parfois trompeuses.",
+    "image": "https://img.leboncoin.fr/api/v1/lbcpb1/images/91/08/27/910827dc136892ef3e9ddf3139ed9f7dc4bd23af.jpg?rule=ad-large"
+  },
+  {
+    "id": 14,
+    "titre": "Les occupants du jour",
+    "auteur": "Auteur inconnu",
+    "categorie": "Roman",
+    "prix": 18,
+    "image": "https://images.epagine.fr/765/9782894319765_1_75.jpg",
+    "description": "Un récit poétique sur les âmes qui habitent nos journées sans qu'on le sache vraiment."
+  },
+  {
+    "id": 15,
+    "titre": "Le moulin du loup",
+    "auteur": "Auteur inconnu",
+    "categorie": "Roman",
+    "prix": 22,
+    "image": "https://m.media-amazon.com/images/I/A1mAznpvidL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Dans les landes du Sud-Ouest, une saga familiale entre secrets, passions et héritage."
+  },
+  {
+    "id": 16,
+    "titre": "La délicatesse du bonheur",
+    "auteur": "Auteur inconnu",
+    "categorie": "Roman",
+    "prix": 16,
+    "image": "https://m.media-amazon.com/images/I/41GAOBVP3CL._AC_UF1000,1000_QL80_.jpg",
+    "description": "Un roman doux et émouvant sur les petits instants qui illuminent une vie entière."
+  },
+  {
+    "id": 17,
+    "titre": "La baie aux perles",
+    "auteur": "Roxane Dhand",
+    "categorie": "Roman",
+    "prix": 20,
+    "image": "https://products-images.di-static.com/image/roxane-dhand-la-baie-aux-perles/9782824614915-200x303-1.jpg",
+    "description": "Une épopée romanesque dans une île lointaine, entre tradition, amour et quête d’indépendance."
+  },
+  {
+    "id": 18,
+    "titre": "Une guerre de velours",
+    "auteur": "Auteur inconnu",
+    "categorie": "Histoire",
+    "prix": 25,
+    "image": "https://m.media-amazon.com/images/I/71LyoGRa4SL._UF1000,1000_QL80_.jpg",
+    "description": "Une fresque historique sur les coulisses diplomatiques d’un conflit discret mais déterminant."
+  },
+  {
+    "id": 19,
+    "titre": "Les rêves de nos mères",
+    "auteur": "Auteur inconnu",
+    "categorie": "Roman",
+    "prix": 19,
+    "image": "https://m.media-amazon.com/images/I/812ImhRh-3L._UF1000,1000_QL80_.jpg",
+    "description": "Trois générations de femmes liées par les rêves, les sacrifices et l’amour indéfectible d’une mère."
+  },
+  {
+    "id": 20,
+    "titre": "La messagère de l'ombre",
+    "auteur": "Auteur inconnu",
+    "categorie": "Roman",
+    "prix": 17,
+    "image": "https://www.babelio.com/couv/cvt_La-messagere-de-lombre_9922.jpg",
+    "description": "Un thriller haletant où une femme mystérieuse livre des secrets qui peuvent tout bouleverser."
+  }
+]

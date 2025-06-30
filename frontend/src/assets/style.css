@@ -1,0 +1,213 @@
+body {
+  font-family: 'Ancizar Sans', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+header {
+  display: flex;
+
+  justify-content: space-between;
+  background-color: #74acac;
+  padding: 1rem 2rem;
+  color: white;
+ 
+}
+
+/* Logo */
+.logo {
+  width: 100%;
+  height: 20%;
+}
+
+/* Navigation */
+header nav {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  font-size: large;
+  
+}
+
+header nav a {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #74acac;
+  padding: 0.5rem 3rem;
+  color: white;
+  text-decoration:none ;
+ 
+}
+
+header nav a:hover {
+  color: #ffd700;
+  
+}
+h2 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 15px;
+  color: #007b7f;
+  margin-bottom: 30px;
+}
+#filtres {
+  margin-bottom: 40px;
+  padding: 2em;
+  display: flex;
+  gap: 100px; 
+}
+
+#filtres input, #filtres select {
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+
+ 
+}
+
+
+
+
+
+
+.grille-produits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px 40px;
+  padding:0 40px;
+}
+
+.carte-produit {
+  background-color: #fff;
+  border: 1px solid #202020;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.carte-produit:hover {
+  transform: scale(1.03);
+}
+
+.image-produit {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.carte-produit h2 {
+  font-size: 1.1em;
+  color: #008b8b;
+  margin: 8px 0 4px;
+}
+
+.prix {
+  font-weight: bold;
+  margin: 5px 0;
+  color: #444;
+}
+
+.carte-produit p {
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+.formulaire-ajout {
+  max-width: 100%;
+  margin: 2rem auto;
+  padding: 10rem;
+  background: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+
+}
+.erreur {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #ffe5e5;
+  padding: 10px;
+  border-left: 4px solid red;
+  border-radius: 4px;
+}
+
+.conteneur-formulaire {
+  max-width: 800px;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire .champ {
+  margin-bottom: 1.2rem;
+}
+
+.formulaire label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.formulaire input,
+.formulaire textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  background-color: #007b7f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
