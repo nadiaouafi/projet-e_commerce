@@ -13,7 +13,7 @@ const __dirname = dirname(__filename);
 // Chemin vers le fichier JSON
 const dataPath = path.join(__dirname, "../data/produits.json");
 
-// 🔹 Récupérer tous les produits
+//  Récupérer tous les produits
 router.get("/", async (req, res) => {
   try {
     const data = await fs.readFile(dataPath, "utf-8");
@@ -24,7 +24,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-// 🔹 Ajouter un produit
+//  Ajouter un produit
 router.post("/", async (req, res) => {
   try {
     const nouveauProduit = req.body;
@@ -41,7 +41,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// 🔹 Modifier un produit
+// Modifier un produit
 router.put("/:id", async (req, res) => {
   try {
     const id = parseInt(req.params.id);
@@ -60,7 +60,7 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// 🔹 Supprimer un produit
+//  Supprimer un produit
 router.delete("/:id", async (req, res) => {
   try {
     const id = parseInt(req.params.id);
