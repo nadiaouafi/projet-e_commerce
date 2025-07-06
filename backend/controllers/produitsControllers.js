@@ -1,4 +1,5 @@
-import { getProduits, saveProduits } from "../models/produitsRoutes.js";
+import { getProduits, saveProduits } from "../models/produitsModels.js";
+import produitsModels from "../models/produitsModels.js";
 
 export async function listerProduits(req, res) {
   const produits = await getProduits();

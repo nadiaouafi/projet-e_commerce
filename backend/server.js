@@ -5,7 +5,7 @@ import produitsRoutes from "./routes/produitsRoutes.js";
 import utilisateursRoutes from "./routes/utilisateursRoutes.js";
 
 const app = express();
-const PORT = 5173;
+const PORT = 3000;
 
 app.use(cors());
 app.use(morgan("dev")); 
