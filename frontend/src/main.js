@@ -1,5 +1,3 @@
-// main.js corrigé complet avec filtres et actions du panier fonctionnelles
-
 let tousLesProduits = [];
 
 // Charger les produits depuis l’API
