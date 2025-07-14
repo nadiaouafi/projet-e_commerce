@@ -1,4 +1,4 @@
-[
+[ 
   {
     "id": 1,
     "titre": "Le Château du secret",
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "titre": "Un palais de couleurs",
-    "categorie": "Poésie",
+    "categorie": "Biographie",
     "prix": 22.5,
     "description": "Une immersion poétique dans un monde sensoriel et vibrant.",
     "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTw9OvkOloojqdSm67rraBZqV1mLh_O2tweKBpoISGrd97UGg-whhRgKqYYENwDyzTyBDEax_zw4OD7PX-CMqlfiNJMTfwTw_IVJQwqzXsPnqCzdTIBio-9ZA"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "titre": "Une soif de livres et de liberté",
-    "categorie": "Essai",
+    "categorie": "Biographie",
     "prix": 17.75,
     "description": "Une ode à la lecture et à l’émancipation par le savoir.",
     "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShJ98Jb2UyunqZUrZw9UmtvjVmj62IJtEXYRg92t7XaaAHJCHWNjR5lsyMuq_2HNK-RBgveU-9YfX4Q05ctnuQi6qum37YVwy4ip06XlBTnj09Qg3eFAv3Lw"
@@ -143,7 +143,7 @@
     "id": 18,
     "titre": "Une guerre de velours",
     "auteur": "Auteur inconnu",
-    "categorie": "Histoire",
+    "categorie": "Thriller",
     "prix": 25,
     "image": "https://m.media-amazon.com/images/I/71LyoGRa4SL._UF1000,1000_QL80_.jpg",
     "description": "Une fresque historique sur les coulisses diplomatiques d’un conflit discret mais déterminant."
@@ -165,5 +165,24 @@
     "prix": 17,
     "image": "https://www.babelio.com/couv/cvt_La-messagere-de-lombre_9922.jpg",
     "description": "Un thriller haletant où une femme mystérieuse livre des secrets qui peuvent tout bouleverser."
+  },
+  {
+    "id": 21,
+    "titre": "Human Body",
+    "auteur": "Auteur inconnu",
+    "categorie": "Science",
+    "prix": 39,
+    "image":"https://m.media-amazon.com/images/I/718SstStV3L._SL1430_.jpg",
+    "description": "Un thriller haletant où une femme mystérieuse livre des secrets qui peuvent tout bouleverser."
+  },
+   {
+    "id": 22,
+    "titre": "Le Livre des Enfants Curieux",
+    "auteur": "Auteur inconnu",
+    "categorie": "Science",
+    "prix": 45,
+    "image":"https://m.media-amazon.com/images/I/71BCKp4mIgL._SL1293_.jpg",
+    "description": "Un thriller haletant où une femme mystérieuse livre des secrets qui peuvent tout bouleverser."
   }
+
 ]

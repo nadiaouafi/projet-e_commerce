@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Validation du panier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/assets/style.css" />
+   <script type="module" src="/src/main.js" defer></script>
+
+   
+</head>
+<body>
+   <img src="images/logo.jpeg" alt="Logo" class="logo" />
+    <header>
+     
+      <nav>
+        <a href="/index.html">Livres</a>
+        <a href="/ajouter.html">Ajouter un livre</a>
+        <a href="/inscription.html">Inscription</a>
+        <a href="/connexion.html">Connexion</a>
+        <a href="checkout.html" id="lien-panier">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 24 24">
+      <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zM7.16 14h9.68c.75 0 1.39-.41 1.72-1.03l3.24-6.03a1 1 0 0 0-.9-1.44H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44a.996.996 0 0 0 .91 1.43z"/>
+      </svg>
+ <span id="quantite-panier">0</span>
+        </a>
+      </nav>
+    </header>
+
+  <div class="checkout-container">
+    <h1>Récapitulatif de la commande</h1>
+    <div id="liste-produits">
+        <ul id="panier-liste"></ul>
+</div>
+    
+    <button id="valider-commande">Valider la commande</button>
+  </div>
+
+  
+</body>
+</html>

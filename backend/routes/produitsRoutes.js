@@ -4,6 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 import { body, validationResult } from 'express-validator';
+import { verifierAdmin } from "../middlewares/admin.js";
 
 const router = express.Router();
 

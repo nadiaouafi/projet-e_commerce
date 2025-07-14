@@ -4,7 +4,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 import { body, validationResult } from 'express-validator';
-import { verifierAdmin } from "../component/form/admin.js";
+import { verifierAdmin } from "../middlewares/admin.js";
 
 const router = express.Router();
 
@@ -104,7 +104,7 @@ router.put("/:id", async (req, res) => {
 });
 
 // Supprimer un utilisateur
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", verifierAdmin, async (req, res) => {
   try {
     const id = parseInt(req.params.id);
     const data = await fs.readFile(dataPath, "utf-8");

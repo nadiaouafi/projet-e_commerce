@@ -37,7 +37,7 @@ header nav {
   display: flex;
   gap: 5rem;
   text-align: center;
-  font-size: large;
+  font-size: auto;
   
 }
 
@@ -53,8 +53,63 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #ffd700;
+  color: #e4c40f;
   
+}
+
+#lien-panier {
+  position: relative;
+  text-decoration: none;
+  color: #111111;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+#lien-panier:hover {
+  color: #da0fa7;
+}
+
+#quantite-panier {
+  position: absolute;
+  top: -1px;
+  right: 5px;
+  background-color: rgb(255, 238, 0);
+  color: rgb(7, 7, 7);
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 1px;
+  border-radius: 50%;
+  min-width: 18px;
+  text-align: center;
+}
+.ligne-panier {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.btn-retirer {
+  background-color: rgb(167, 161, 161);
+  border: 2px;
+  cursor: pointer;
+  font-size: 1em;
+  color: rgb(146, 13, 13);
+}
+.actions-panier button {
+  padding: 4px 8px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.actions-panier span {
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
 }
 h2 {
   padding: 1rem;
@@ -77,10 +132,6 @@ h2 {
 
  
 }
-
-
-
-
 
 
 .grille-produits {
@@ -211,3 +262,53 @@ footer {
   padding: 10px;
   margin-top: 40px;
 }
+ 
+.checkout-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+
+.produit-checkout {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
+  .produit-checkout img {
+      width: 60px;
+      height: auto;
+      margin-right: 1rem;
+    }
+
+  .produit-checkout span {
+      flex: 1;
+    }
+
+    .total {
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-align: right;
+      margin-top: 1rem;
+    }
+
+    button#valider-commande {
+      display: block;
+      margin: 2rem auto 0;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button#valider-commande:hover {
+      background-color: #218838;
+    }

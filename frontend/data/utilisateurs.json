@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "nom": "Nadia design",
+    "email": "nadia.design@example.com",
+    "motdepasse": "azerty123",
+     "role": "admin",
+     "achats": []
+  },
+  {
+    "id": 2,
+    "nom": "Jean Dupont",
+    "email": "jean.dupont@example.com",
+    "motdepasse": "motdepasse456",
+     "role": "client",
+    "achats": []
+  },
+  {
+    "id": 3,
+    "nom": "Sophie Tremblant",
+    "email": "sophie.tremblant@example.com",
+    "motdepasse": "livres2025",
+    "role": "client",
+    "achats": []
+
+  },
+  {
+    "id": 4,
+    "nom": "Karim Ben daali",
+    "email": "karim.bendaali@example.com",
+    "motdepasse": "secure789",
+    "role": "client",
+    "achats": []
+  },
+  {
+    "id": 5,
+    "nom": "Isabelle lawson",
+    "email": "isabelle.roylawson@example.com",
+    "motdepasse": "lectureLibre",
+    "role": "client",
+    "achats": []
+  }
+]

@@ -62,7 +62,34 @@ h1 {
 .read-the-docs {
   color: #888;
 }
+  .panier-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
 
+  .icone-panier {
+    width: 32px;
+    height: 32px;
+    fill: #333;
+    transition: fill 0.3s ease;
+  }
+
+  
+
+  .compteur-panier {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: rgb(234, 238, 9);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    min-width: 20px;
+    text-align: center;
+  }
 button {
   border-radius: 8px;
   border: 1px solid transparent;

@@ -1,5 +1,4 @@
-// middlewares/admin.js
-import jwt from "jsonwebtoken";
+
 
 const SECRET = "Bob___$*Leponge*$$"; 
 export function verifierAdmin(req, res, next) {
